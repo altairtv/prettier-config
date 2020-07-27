@@ -1,0 +1,18 @@
+{
+  "name": "@altairtv/prettier-config",
+  "version": "0.0.1",
+  "description": "Prettier configuration used at Altair.",
+  "author": "Altair Interactive, Inc.",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": "altairtv/prettier-config",
+  "keywords": [
+    "prettier"
+  ],
+  "scripts": {
+    "postpublish": "npm publish --ignore-scripts --@github:registry='https://npm.pkg.github.com'"
+  }
+}
